@@ -3658,6 +3658,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7276764443248859404, guid: 2f5d313409ec64adc9647e645f3fd9f2,
         type: 3}
+      propertyPath: lengthInSec
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276764443248859404, guid: 2f5d313409ec64adc9647e645f3fd9f2,
+        type: 3}
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
@@ -3734,12 +3739,32 @@ PrefabInstance:
     - target: {fileID: 7276764443775147240, guid: 2f5d313409ec64adc9647e645f3fd9f2,
         type: 3}
       propertyPath: lengthInSec
-      value: 25
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 7276764443775147240, guid: 2f5d313409ec64adc9647e645f3fd9f2,
         type: 3}
       propertyPath: playOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276764443775147240, guid: 2f5d313409ec64adc9647e645f3fd9f2,
+        type: 3}
+      propertyPath: autoRandomSeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276764443775147240, guid: 2f5d313409ec64adc9647e645f3fd9f2,
+        type: 3}
+      propertyPath: simulationSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276764443775147240, guid: 2f5d313409ec64adc9647e645f3fd9f2,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 200000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276764443775147240, guid: 2f5d313409ec64adc9647e645f3fd9f2,
+        type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 7276764443775147240, guid: 2f5d313409ec64adc9647e645f3fd9f2,
         type: 3}
