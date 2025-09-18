@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -327,7 +327,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Unity Essentials/Scenes
+    - Assets/_Unity Essentials/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -337,30 +337,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Unity Essentials/Scenes
+  - Assets/_Unity Essentials/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\02BRIAN.KUHN\Brian Kuhn\Repositories\UnityEssentials\UnityEssentialsThing
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 372}
-    m_SelectedIDs: 3caa0000
-    m_LastClickedID: 43580
-    m_ExpandedIDs: 00000000f6a60000f8a60000faa60000fca60000fea6000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 388}
+    m_SelectedIDs: 4ca90000
+    m_LastClickedID: 43340
+    m_ExpandedIDs: 0000000004a6000006a6000008a600000aa600000ca6000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: VFX
+      m_OriginalName: VFX
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 43284
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 5}
@@ -375,7 +375,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f6a60000f8a60000faa60000fca60000fea60000
+    m_ExpandedIDs: 0000000004a6000006a6000008a600000aa600000ca60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -460,7 +460,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 40
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 94aa0000
+      m_SelectedIDs: d2350000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2cf9ffff
+      m_ExpandedIDs: ecfaffff6c9f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1149,7 +1149,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.0018204984, y: 0.9925802, z: -0.121867, w: 0.016540475}
     speed: 2
-    m_Value: {x: 0.0020029524, y: 0.99238366, z: -0.12184319, w: 0.018026227}
+    m_Value: {x: 0.0018201855, y: 0.9924096, z: -0.12184606, w: 0.016537633}
   m_Size:
     m_Target: 2.182593
     speed: 2
