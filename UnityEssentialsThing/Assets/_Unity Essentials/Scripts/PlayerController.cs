@@ -3,7 +3,7 @@ using UnityEngine;
 // Controls player movement and rotation.
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 40.0f; // Set player's movement speed.
+    public float speed = 10.0f; // Set player's movement speed.
     public float rotationSpeed = 359.0f; // Set player's rotation speed.
 
     private Rigidbody rb; // Reference to player's Rigidbody.
@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+    	speed =+ speed +0.01f;
     }
 
 
@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         // Move player based on vertical input.
         float moveVertical = Input.GetAxis("Vertical");
-        Vector3 movement = transform.forward * moveVertical * 20 * speed * Time.fixedDeltaTime;
+        Vector3 movement = transform.forward * moveVertical * speed * Time.fixedDeltaTime;
         rb.MovePosition(rb.position + movement);
 
 	if (Input.GetKey(KeyCode.Space))

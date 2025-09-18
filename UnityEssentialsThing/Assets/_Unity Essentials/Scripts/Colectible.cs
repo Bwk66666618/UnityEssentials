@@ -12,7 +12,7 @@ public class Colectible : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-	rotationSpeed =+ rotationSpeed + 0.01f;
+	rotationSpeed =+ rotationSpeed + 0.001f;
         transform.Rotate(0, rotationSpeed, 0);
     }
 }
