@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
 	if (Input.GetKey(KeyCode.Space))
 	{
-        Vector3 moement = transform.up * speed * Time.fixedDeltaTime;
+        Vector3 moement = transform.up * 10 * Time.fixedDeltaTime;
         rb.MovePosition(rb.position + moement);
 	}
         // Rotate player based on horizontal input.
