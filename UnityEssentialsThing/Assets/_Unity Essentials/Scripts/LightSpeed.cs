@@ -12,7 +12,10 @@ public class LightSpeed : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+	float Randoomx = Random.Range(0.2f,5f);
+	float Randoomy = Random.Range(0.2f,5f);
+	float Randoomz = Random.Range(0.2f,5f);
         sunlightSpeed =+ sunlightSpeed + 0.01f;
-	transform.Rotate(sunlightSpeed, sunlightSpeed, sunlightSpeed);
+	transform.Rotate(sunlightSpeed*Randoomx, sunlightSpeed*Randoomy, sunlightSpeed*Randoomz);
     }
 }
